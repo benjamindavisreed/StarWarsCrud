@@ -1,4 +1,4 @@
-'mongodb+srv://BDR:<M2613619>@cluster0.7lirz.mongodb.net/?retryWrites=true&w=majority'
+'mongodb+srv://USERNAME:<PASSWORD>@cluster0.7lirz.mongodb.net/?retryWrites=true&w=majority'
 
 MongoClient.connect(connectionString, (err, client) => {
   if (err) return console.error(err)
